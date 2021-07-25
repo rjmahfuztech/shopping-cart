@@ -3,7 +3,6 @@ import Drawer from "@material-ui/core/Drawer";
 import Grid from "@material-ui/core/Grid";
 import IconButton from "@material-ui/core/IconButton";
 import LinearProgress from "@material-ui/core/LinearProgress";
-// import { Wrapper } from "./AppStyles";
 import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
 import { useState } from "react";
 import { useQuery } from "react-query";
@@ -69,7 +68,6 @@ const App = () => {
   if (error) return <div>Opps!! Something went wrong ..</div>;
 
   return (
-    // <Wrapper>
     <div className="main-container">
       <Drawer anchor="right" open={cartOpen} onClose={() => setCartOpen(false)}>
         <Cart
@@ -91,8 +89,6 @@ const App = () => {
         ))}
       </Grid>
     </div>
-
-    // </Wrapper>
   );
 };
 
