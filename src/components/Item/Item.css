@@ -1,3 +1,19 @@
-.item-container img {
+.item-container {
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 10px;
+}
+.item-container .item-image {
   width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.item-container img {
+  height: 200px;
+}
+.item-container .item-btn {
+  text-align: center;
+}
+.item-container .item-btn .btn {
+  width: 100%;
 }

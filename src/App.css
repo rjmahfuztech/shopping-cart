@@ -3,6 +3,8 @@ body {
   padding: 0;
 }
 .main-container {
+  margin: 2%;
+  padding: 1%;
 }
 .main-container .icon-button {
   position: fixed;

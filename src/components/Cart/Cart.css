@@ -1,0 +1,11 @@
+.cart-container {
+  margin: 3% 2%;
+  max-width: 500px;
+}
+
+@media (max-width: 480px) {
+  .cart-container {
+    padding: 3% 2%;
+    max-width: 250px;
+  }
+}

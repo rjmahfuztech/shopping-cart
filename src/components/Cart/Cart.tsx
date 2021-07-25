@@ -1,4 +1,3 @@
-import React from "react";
 import { CartItemType } from "../../App";
 import CartItem from "../CartItem/CartItem";
 import "./Cart.css";
@@ -16,7 +15,7 @@ const Cart = ({ cartItems, addToCart, removeFromCart }: Props) => {
     );
   };
   return (
-    <div>
+    <div className="cart-container">
       <h2>Your Shopping Cart</h2>
       {cartItems.length === 0 ? <p>No items in the cart.</p> : null}
       {cartItems.map((item) => (
